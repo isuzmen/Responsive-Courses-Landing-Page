@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="keyword" content="Landing Page">
+    <meta name="description" content="Landing Page">    
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+    <link rel="stylesheet" media="(max-width:768px)"" href="css/tablet.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+        <nav id="navbar">
+            <h1 class="heading-small">Ilyas Suzmen</h1>
+            <ul>
+                <li><a href="#home">Homepage</a></li>
+                <li><a href="#training">Training</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <section id="home">
+        <img src="images/Photo1.jpeg" alt="İlyas Süzmen" width="300px" height="300px" />
+        <div class="name">
+            <h2 class="heading-big">Ilyas Suzmen</h2>
+            <p>Trainer | National Athlete</p>
+        </div>
+        <a class="btn btn-dark" href="#courses">Go to course</a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Training</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Classroom trainings</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, obcaecati.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online Contents</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, obcaecati.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Conferences</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, obcaecati.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h3 class="text-center heading-medium">Courses</h3>
+        <div class="container">
+            <div class="courses">
+
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/golf.jpg"  width=300px" height="300px" alt="golf">
+                        <span>%90 Discount</span>
+                    </div>
+                    
+                    <div class="course-info">
+                        <div class="title">Golf Course</div>
+                    <div class="description">
+                        Golf is not just a sport, it's a symbol of prestige and elegance. Experience a stress-free environment on the greens with our golf training. Whether you're a beginner or an advanced player, our personalized lessons will help you master the game.
+                    </div>
+                    <div class="instructor"> <strong>Trainer:</strong>Ilyas Suzmen</div>
+                    <div class="rating">4.7 (18000 Ratings)</div>
+                    <div class="price">Price: 3400$</div>
+                </div>
+            </div>
+
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/athletism.jpg" alt="athletism" width="300px" height="300px">
+                        <span>%35 Discount</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Athletism Course</div>
+                        <div class="description">
+                            Take your body to the next level with our professional athletics training! Our programs focus on speed, endurance, and technical development in running, jumping, and throwing events, helping you achieve your best performance. 
+                            Suitable for athletes of all levels!
+                        </div>
+                        <div class="instructor"><strong>Trainer:</strong> Mehmet Yildiz</div>
+                        <div class="rating">4.5 (23000 Ratings)</div>
+                        <div class="price">Price: 2000$</div>
+                    </div>
+                </div>
+
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/gokart.jpg" alt="gokart" width="300px" height="300px" >
+                        <span>%56 Discount</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Go-kart Course</div>
+                        <div class="description">
+                            Push your speed limits with our adrenaline-packed go-kart training! Our expert instructors will teach you the best driving techniques and provide a safe, controlled racing experience on professional tracks. It's both fun and educational!
+                        </div>
+                        <div class="instructor"><strong>Trainer:</strong> Leyla Sonmez</div>
+                        <div class="rating">4.8 (9700 Ratings)</div>
+                        <div class="price">Price: 1500$</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Contact me here</h4>
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Email</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="E-mail">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5" class="form-control" placeholder="Message"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-block">Submit</button>
+                
+                <ul>
+                    <li>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
